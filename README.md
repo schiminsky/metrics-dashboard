@@ -1,11 +1,9 @@
 <p align="center">📊 Stalse Analytics - Dashboard de Performance</p>
 
-Um dashboard B2B focado em visualização de dados e métricas de marketing.
-
 ---
 
 <p align="center">
-<a href="https://schiminsky.github.io/metrics-dashbooard">
+<a href="https://metrics-dashboard-h1ptvyfq2-schiminskys-projects.vercel.app">
 <strong>🌐 Visualize o Projeto Online (Live Demo)</strong>
 </a>
 </p>
@@ -13,7 +11,9 @@ Um dashboard B2B focado em visualização de dados e métricas de marketing.
 ---
 
 ## 📝 Sobre o Projeto
-Este dashboard foi desenvolvido para a Stalse Analytics como um desafio técnico focado em Data Visualization e arquitetura moderna com Next.js. A aplicação consome uma API interna para monitorar métricas de campanhas de dermocosméticos, oferecendo uma visão clara de investimentos e conversões.
+Este dashboard foi desenvolvido para a Stalse Analytics como um desafio técnico focado em Data Visualization e arquitetura moderna com Next.js.
+
+O diferencial deste projeto reside na expertise de mercado aplicada: com mais de 2 anos de experiência como Desenvolvedor na Corebiz, atuei dedicado ao Grupo Adcos Dermocosméticos. Por conta dessa bagagem, utilizei nomes de campanhas, métricas e canais que refletem fielmente a estratégia de performance que eu aplicaria para este cliente no dia a dia. A aplicação consome uma API interna para monitorar essas métricas, oferecendo uma visão clara e profissional de investimentos e conversões.
 
 ---
 
@@ -42,10 +42,9 @@ Feedback de Carregamento: Implementação de Skeletons customizados para garanti
 ```bash
 src/
  ├── app/
- │    └── api/data/      # Mock de dados da Stalse Analytics
+ │    └── api/data/      # Mock de dados
  ├── components/ui/      # Componentes modulares (MetricCard, Skeleton, etc)
- ├── lib/                # Contrato de interfaces e tipos
- └── assets/             # Identidade visual da agência
+ └── lib/                # Contrato de interfaces e tipos
  ```
 ---
 
