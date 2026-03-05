@@ -46,8 +46,6 @@ export default function Dashboard() {
     }
     fetchData();
   }, []);
-
-  // Lógica do Gráfico: Agrupa investimento por canal
   const chartData: ChartData[] = campaigns.reduce((acc: ChartData[], camp) => {
     const existing = acc.find(item => item.name === camp.channel);
     if (existing) {
@@ -70,8 +68,6 @@ export default function Dashboard() {
           Exportar Relatório
         </button>
       </header>
-      
-      {/* 1. CARDS DE MÉTRICAS */}
       <section className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
         {loading ? (
           <><Skeleton /><Skeleton /><Skeleton /></>
@@ -79,8 +75,6 @@ export default function Dashboard() {
           metrics.map((m) => <MetricCard key={m.label} metric={m} />)
         )}
       </section>
-
-      {/* 2. GRÁFICO RECHARTS */}
       <section className="bg-white p-6 rounded-lg shadow-sm border border-gray-100 mb-8">
         <h3 className="text-lg font-semibold text-gray-900 mb-4">Investimento Total por Canal</h3>
         <div className="h-64 w-full">
@@ -110,8 +104,6 @@ export default function Dashboard() {
           )}
         </div>
       </section>
-
-      {/* 3. TABELA COM FILTROS */}
       <section className="bg-white rounded-lg shadow-sm border border-gray-100 overflow-hidden">
         <div className="p-6 flex flex-col md:flex-row justify-between items-center gap-4 border-b border-gray-100 bg-gray-50/50">
           <h3 className="text-lg font-semibold text-gray-900">Detalhamento de Campanhas</h3>
