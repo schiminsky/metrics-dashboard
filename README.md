@@ -3,7 +3,7 @@
 ---
 
 <p align="center">
-<a href="https://metrics-dashboard-h1ptvyfq2-schiminskys-projects.vercel.app">
+<a href="https://metrics-dashboard-green.vercel.app/">
 <strong>🌐 Visualize o Projeto Online (Live Demo)</strong>
 </a>
 </p>
