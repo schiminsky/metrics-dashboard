@@ -1,6 +1,5 @@
-<p align="center">📊 Stalse Analytics - Dashboard de Performance</p>
-
 ---
+<h1 align="center">📊 Stalse Analytics - Dashboard de Performance</h1>
 
 <p align="center">
 <a href="https://metrics-dashboard-green.vercel.app/">
@@ -93,3 +92,5 @@ Responsividade: Redimensione a janela para observar o ajuste do layout e do grá
  <p align="center">
 Desenvolvido por <strong>Claudio Schiminsky Junior</strong>
 </p>
+
+---
